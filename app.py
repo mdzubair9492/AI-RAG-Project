@@ -4,6 +4,9 @@ import notebook
 import main_page
 import os
 from dotenv import load_dotenv
+import db_utils
+
+db_utils.init_db()
 
 
 load_dotenv()
