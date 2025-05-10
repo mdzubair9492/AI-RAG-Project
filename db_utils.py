@@ -97,3 +97,4 @@ def get_notes_from_db(notebook_id):
     rows = cur.fetchall()
     conn.close()
     return [r["content"] for r in rows]
+

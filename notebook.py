@@ -69,3 +69,4 @@ def notebook_management():
         st.session_state.page = "login"
         st.warning("Logged out. Notebooks remain in database until explicitly deleted.")
         st.rerun()
+
